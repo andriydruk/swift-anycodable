@@ -113,5 +113,9 @@ class AnyCodableTests: XCTestCase {
             XCTFail()
         }
     }
+
+    func testFake() {
+        // empty
+    }
     
 }
