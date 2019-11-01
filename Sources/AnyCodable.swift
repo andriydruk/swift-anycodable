@@ -8,6 +8,8 @@
 import Foundation
 
 public struct AnyCodable: Codable {
+
+    public static let FakeConst = "FakeConst"
     
     private typealias AnyEncodableClosure = (Any, inout KeyedEncodingContainer<CodingKeys>) throws -> Void
     private typealias AnyDecodableClosure = (KeyedDecodingContainer<CodingKeys>) throws -> Any
